@@ -44,7 +44,7 @@ for i in range(0, 1000):
     
 # Now the texts is cleaned, hence we will be creating our bag of words model (tokenisation process).
 # Bag of words model simply splits different riviews into different words (Only the relevant word).
-# there would be a column for each word and number of times it appeared, basically a Matrix will be formed.
+# there would be a column for each word and number of times it appeared in a review, basically a Matrix will be formed.
 # We will also remove the words with very less frequency of appearence.
 from sklearn.feature_extraction.text import CountVectorizer
 # Only taking the first 1500 higest frequency words present in the review.
